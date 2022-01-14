@@ -12,6 +12,7 @@ git config --global user.name
 
 git config --global user.email
 
+![git_avatar](Kak-dobavit-Git-Remote.png)
 
 ## Работа с файлами
 
@@ -51,7 +52,7 @@ git config --global user.email
 
 git checkout code_commit
 
-    code_commit - код коммита, к которому мы хотим перейти. Его можно посомтреть в git log. Достаточно первые 4 символа кода.
+    code_commit - код коммита, к которому мы хотим перейти. Его можно посмотреть в git log. Достаточно первые 4 символа кода.
 
 2. Вернуться к последнему состоянию:
 
