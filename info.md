@@ -28,7 +28,7 @@ git config --global user.email
      * git commit -m "some message"
      * если добавить тег -а, то к коммиту добавятся все  измененные файлы, которые уже отслеживались (таким образом можно исключить команду add)
 
-         git commit -a -m "some message"
+        > git commit -a -m "some message"
 
 Чтобы отслеживать состояние репозитория:
 1. git status
@@ -50,10 +50,11 @@ git config --global user.email
 ## Работа с коммитами
 1. Чтобы перейти к определенному сохраненному коммиту:
 
-git checkout code_commit
+> git checkout code_commit
 
     code_commit - код коммита, к которому мы хотим перейти. Его можно посмотреть в git log. Достаточно первые 4 символа кода.
 
 2. Вернуться к последнему состоянию:
 
-git checkout master
+> git checkout master
+
