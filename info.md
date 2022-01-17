@@ -58,3 +58,11 @@ git config --global user.email
 
 > git checkout master
 
+## Ветки в git
+Чтобы посмотреть все ветки
+
+ >  git branch branch_name
+
+Переместиться к ветке с именем branch_name:
+
+ >  git checkout branch_name
