@@ -43,6 +43,10 @@ git config --global user.email
 
    сравнение записанной последней записанной версии репозитория с текущими изменениями
 
+4. git log --graph
+
+   выводит дерево коммитов
+
 4. git add --help
 
    имя команды с тегом --help выводит подробную информацию по работе с этой командой
@@ -58,3 +62,11 @@ git config --global user.email
 
 > git checkout master
 
+## Ветки в git
+Чтобы посмотреть все ветки
+
+ >  git branch branch_name
+
+Переместиться к ветке с именем branch_name:
+
+ >  git checkout branch_name
